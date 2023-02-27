@@ -1,0 +1,21 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.wrapper {
+  align-items: center;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.25rem;
+  justify-content: center;
+  margin: auto;
+  max-width: 600px;
+  padding: 2rem;
+  width: 100%;
+}

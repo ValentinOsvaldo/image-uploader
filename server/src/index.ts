@@ -23,6 +23,8 @@ app.use(
 app.post('/api/image', async (req, res) => {
   const { image } = req.files as any;
 
+  console.log({ image });
+
   try {
     const { secure_url } = await cloudinary.uploader.upload(image.tempFilePath);
 

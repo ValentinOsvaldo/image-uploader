@@ -1,0 +1,37 @@
+.image {
+  border-radius: 0.75rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  max-width: 350px;
+}
+
+.link-container {
+  align-items: center;
+  background-color: #f6f8fb;
+  border: thin solid #e0e0e0;
+  border-radius: 0.75rem;
+  padding: 0.25rem;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: hidden;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+.link-container > *:first-child {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 0;
+  margin-left: 0.5rem;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.link-container > *:first-child::-webkit-scrollbar {
+  display: none;
+}
+
+.link-container button {
+  flex: 1 1 45%;
+}
